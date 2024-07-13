@@ -2,10 +2,10 @@
 Приложение для настольной игры "Миллионер" от Astrel Games® FunGame™, включающее систему автоматического подсчёта аренды, акций и налогов с учётом фортуны.
 # Установка
 Скачайте и установите Java Runtime Environment 8
-
+```
 https://www.oracle.com/java/technologies/downloads/#jre8-linux
-
 https://www.java.com/ru/download/
+```
 
 Скачайте jar файл: https://github.com/TKRArtem/Millionaire/raw/main/out/Millionaire.jar
 
