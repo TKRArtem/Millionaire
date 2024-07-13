@@ -1,0 +1,214 @@
+.root {
+    -fx-background-color: #333;
+}
+.button, .tab {
+    -fx-border-color: #FAFAFA;
+    -fx-border-width: 1px;
+    -fx-border-insets: 2px;
+
+    -fx-text-fill: #FAFAFA;
+
+    -fx-background-color: #333;
+}
+
+.button:hover, .tab:hover {
+    -fx-background-color: #555;
+}
+
+.label {
+    -fx-text-fill: #FAFAFA;
+}
+
+.underlined-on-hover:hover {
+    -fx-underline: true;
+}
+
+.text-field {
+    -fx-background-color: #222;
+    -fx-text-fill: #FAFAFA;
+
+}
+
+.text-field:hover, .text-field:focused {
+    -fx-background-color: #272727;
+    -fx-text-fill: #FAFAFA;
+}
+
+.tab:selected {
+    -fx-background-color: #555;
+}
+
+.tab-pane , .tab-header-area , .headers-region , .tab-container , .tab-label {
+    -fx-background-color: #333;
+}
+
+.tab-label {
+    -fx-text-fill: #EAEAEA;
+}
+
+.tab-pane , .tab-header-area , .headers-region {
+    -fx-color: #333;
+}
+
+.tab {
+    -fx-focus-color: transparent;
+    -fx-background-color: #333;
+    -fx-border-color: #DADADA;
+}
+
+.tab-header-background {
+    -fx-background-color: #272727;
+}
+
+.tab-pane > .tab-header-area {
+    -fx-background-color: transparent;
+}
+
+.tab-pane > .tab-content-area {
+    -fx-border-color: #AAAAAA transparent transparent transparent;
+    -fx-border-width: 1px 0 0 0;
+}
+
+
+.scroll-bar {
+    -fx-background-color: #222;
+}
+
+.scroll-bar .viewport {
+    -fx-background-color: #222;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button,
+.scroll-bar:horizontal .increment-button,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color: #444;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #444;
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #555;
+}
+
+.listItemsCustom {
+    -fx-background-color: #282828;
+}
+
+
+.listItemsCustom:selected {
+    -fx-background-color: #181818;
+}
+
+.listItemsCustom:hover {
+    -fx-background-color: #383838;
+}
+
+.listItemsCustomUnhover {
+    -fx-background-color: #282828;
+}
+
+.scroll-pane {
+    -fx-background-color: #333;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #333;
+}
+
+.list-view {
+    -fx-background-color: #282828;
+}
+
+.list-view:empty {
+    -fx-background-color: #282828;
+}
+
+.list-view .viewport {
+    -fx-background-color: #282828;
+}
+
+.check-box .box {
+    -fx-background-color: #282828;
+}
+
+.check-box:hover .box {
+    -fx-background-color: #383838;
+}
+
+.check-box {
+    -fx-text-fill: #FAFAFA;
+}
+
+.split-pane {
+    -fx-background-color: #313131;
+}
+
+.split-pane-divider {
+    -fx-background-color: #444;
+}
+
+.split-pane-divider:hover {
+    -fx-background-color: #555;
+}
+
+.list-cell {
+    -fx-background-color: #282828;
+    -fx-text-fill: #FAFAFA;
+}
+
+.addButton {
+    -fx-border-color: #333;
+    -fx-border-width: 1px;
+    -fx-border-insets: 1px;
+    -fx-text-fill: #FAFAFA;
+    -fx-background-color: #7FD960;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 3px;
+    -fx-font-family: "Segoe MDL2 Assets";
+    -fx-font-weight: bold;
+}
+
+.addButton:hover {
+    -fx-border-color: #333;
+    -fx-border-width: 1px;
+    -fx-border-insets: 1px;
+    -fx-text-fill: #FAFAFA;
+    -fx-background-color: #9DFF85;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 3px;
+    -fx-font-family: "Segoe MDL2 Assets";
+    -fx-font-weight: bold;
+}
+
+.removeButton {
+    -fx-border-color: #333;
+    -fx-border-width: 1px;
+    -fx-border-insets: 1px;
+    -fx-text-fill: #FAFAFA;
+    -fx-background-color: #FF6F6F;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 3px;
+    -fx-font-family: "Segoe MDL2 Assets";
+    -fx-font-weight: bold;
+}
+
+.removeButton:hover {
+    -fx-border-color: #333;
+    -fx-border-width: 1px;
+    -fx-border-insets: 1px;
+    -fx-text-fill: #FAFAFA;
+    -fx-background-color: #FF9999;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 3px;
+    -fx-font-family: "Segoe MDL2 Assets";
+    -fx-font-weight: bold;
+}
