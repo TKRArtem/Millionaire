@@ -13,8 +13,8 @@ https://www.java.com/ru/download/
 
 # Скриншоты
 
-![screen_1](https://github.com/user-attachments/assets/78d0cadb-18b2-4b0a-9972-6d674fbec755)
-![screen_2](https://github.com/user-attachments/assets/38401c61-9823-4fcc-9b41-21ca0d6fe739)
-![screen_3](https://github.com/user-attachments/assets/501e7a95-92f1-4832-b4cd-feae0b489ece)
-![screen_4](https://github.com/user-attachments/assets/514a7f66-6252-4344-8ef5-4064af625fe3)
-![screen_5](https://github.com/user-attachments/assets/58f28d27-4075-4e5f-b658-ff9580d623ad)
+![screen_1](https://github.com/user-attachments/assets/c8275c45-dbbd-4cec-8d07-a787775587fd)
+![screen_2](https://github.com/user-attachments/assets/98868e89-bbcd-4b46-9a03-2bf39e015638)
+![screen_3](https://github.com/user-attachments/assets/d72d31c2-7047-442f-8710-dd53b406b914)
+![screen_4](https://github.com/user-attachments/assets/1e392097-191e-49e9-8871-38b78938203c)
+![screen_5](https://github.com/user-attachments/assets/7ce6212f-895b-42de-a2e8-485d81bee352)
