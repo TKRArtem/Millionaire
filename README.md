@@ -9,7 +9,7 @@ https://www.java.com/ru/download/
 
 Скачайте jar файл: https://github.com/TKRArtem/Millionaire/raw/main/out/Millionaire.jar
 
-Откройте консоль и выполните следующую команду: java -jar <path\to\jar\file>\Millionaire.jar
+Откройте скачанный файл и наслаждайтесь!
 
 # Скриншоты
 
