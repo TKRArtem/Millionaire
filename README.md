@@ -8,7 +8,7 @@ https://www.oracle.com/java/technologies/downloads/#jre8-linux
 https://www.java.com/ru/download/
 
 
-Скачайте jar файл: https://github.com/TKRArtem/Millionaire/raw/main/out/Millionaire.jar
+Скачайте jar файл Millionaire.jar
 
 Откройте скачанный файл и наслаждайтесь!
 
