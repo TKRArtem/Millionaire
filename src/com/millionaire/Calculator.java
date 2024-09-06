@@ -34,6 +34,8 @@ public class Calculator {
             if (data.getOwner(i)==player+1) {
                 int tax_ = getStreetTax(data, i);
                 tax_ = getStreetTaxAfterFortune(data, tax_, i);
+                if (data.getPledged(i))
+                    tax_ = 0;
                 tax += tax_;
             }
         }
@@ -177,7 +179,12 @@ public class Calculator {
                 }
             }
         } else {
-            switch (getPlayerCenterStreetsAmount(data, data.getOwner(street)-1)) {
+            int playerCenterStreetsAmount = getPlayerCenterStreetsAmount(data, data.getOwner(street)-1);
+            for (int i = 22; i < 26; i++) {
+                if (data.getPledged(i) && data.getOwner(i) == data.getOwner(street))
+                    playerCenterStreetsAmount--;
+            }
+            switch (playerCenterStreetsAmount) {
                 case 1:
                     tax = 10;
                     break;
