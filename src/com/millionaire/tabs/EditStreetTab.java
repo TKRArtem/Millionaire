@@ -170,7 +170,8 @@ public class EditStreetTab {
                 streetBuildings.getSelectionModel().select(0);
                 streetBuildings.setDisable(true);
                 data.setPledged(true, streetsList.getSelectionModel().getSelectedIndex());
-                data.setHouse(0, streetsList.getSelectionModel().getSelectedIndex());
+                if (streetsList.getSelectionModel().getSelectedIndex() <= 21)
+                    data.setHouse(0, streetsList.getSelectionModel().getSelectedIndex());
             } else {
                 streetBuildings.setDisable(false);
                 data.setPledged(false, streetsList.getSelectionModel().getSelectedIndex());
