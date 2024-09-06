@@ -42,7 +42,13 @@ public class Calculator {
         {
             int tax_ = 0;
 
-            switch (getPlayerCenterStreetsAmount(data, player)) {
+            int playerCenterStreetsAmount = getPlayerCenterStreetsAmount(data, player);
+            for (int i = 22; i < 26; i++) {
+                if (data.getPledged(i) && data.getOwner(i) == player)
+                    playerCenterStreetsAmount--;
+            }
+
+            switch (playerCenterStreetsAmount) {
                 case 1:
                     tax_ = 10;
                     break;
