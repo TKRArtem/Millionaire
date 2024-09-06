@@ -44,7 +44,7 @@ public class Calculator {
 
             int playerCenterStreetsAmount = getPlayerCenterStreetsAmount(data, player);
             for (int i = 22; i < 26; i++) {
-                if (data.getPledged(i) && data.getOwner(i) == player)
+                if (data.getPledged(i) && data.getOwner(i)-1 == player)
                     playerCenterStreetsAmount--;
             }
 
