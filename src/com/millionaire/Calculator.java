@@ -55,6 +55,9 @@ public class Calculator {
                     break;
             }
 
+            if (data.isFortuneAdded("Все участки центральной отрасли облагаются двойным налогом"))
+                tax_ *= 2;
+
             tax += tax_;
         }
         tax += getStockTax(data, player);
