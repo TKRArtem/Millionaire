@@ -230,7 +230,7 @@ public class Calculator {
                     if (street >= 17 && street <= 19)
                         currentPrice = 10;
                     break;
-                case "Всем участка отрасли \"Пищевая промышленность\" устанавливатся аренда - 50 фантов":
+                case "Всем участкам отрасли \"Пищевая промышленность\" устанавливатся аренда - 50 фантов":
                     if (street >= 3 && street <= 4)
                         currentPrice = 50;
                     break;
